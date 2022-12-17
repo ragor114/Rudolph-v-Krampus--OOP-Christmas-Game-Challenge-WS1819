@@ -1,0 +1,56 @@
+package Config;
+
+public interface GameConfig {
+    public static final int FINALSCREEN_HEIGHT = 480;
+    public static final int FINALSCREEN_WIDTH = 640;
+    public static final int FPS = 60;
+    public static final int STARTGAMESPEED = 3;
+    public static final int SPEEDINCREASEPERPOINT = 1;
+    public static final float GROUNDHEIGHT = 340;
+    public static final float PLAYERXPOS = 50;
+    public static final int ANIMATION_SPEED = 5;
+    public static final int BOSS_ANIMATION_SPEED = 3;
+    public static final float MAXJUMPHEIGHT = 50;
+    public static final int JUMPSPEED = 10;
+    public static final int FLIGHTSPEED = (int) (2* JUMPSPEED);
+    public static final int MOVESPEED = 7;
+    public static final int FLIGHTTIME = 10 * FPS;
+    public static final int MAXPRESENTS = 9999;
+    public static final float COUNTER_XPOS = 580;
+    public static final float COUNTER_YPOS = 25;
+    public static final int COUNTER_FONTSIZE = 22;
+    public static final String COUNTER_FONT = "Arial";
+    public static final double PRESENT_SPAWNFREQ_SEK = 1;
+    public static final float PRESENT_SPAWNFREQ_FRAMES = (float) PRESENT_SPAWNFREQ_SEK * FPS;
+    public static final int PRESENT_WIDTH = 70;
+    public static final int PRESENT_HEIGHT = PRESENT_WIDTH;
+    public static final int MAXPRESENTS_ON_SCREEN = 3;
+    public static final int GOODPRESENT_PERCENTAGE = 60; //<100
+    public static final int BADPRESENT_PERCENTAGE = GOODPRESENT_PERCENTAGE/2;
+    public static final int SUPERPRESENT_PERCENTAGE = 100-GOODPRESENT_PERCENTAGE-BADPRESENT_PERCENTAGE;
+    public static final int GOODPRESENT_RANGEMAX = GOODPRESENT_PERCENTAGE;
+    public static final int BADPRESENT_RANGEMAX = GOODPRESENT_PERCENTAGE+BADPRESENT_PERCENTAGE;
+    public static final float PLAYER_HITBOX_RADIIUS = 120;
+    public static final float PRESENT_MAXHEIGHT = MAXJUMPHEIGHT+20;
+    public static final float PRESENT_MINHEIGHT = GROUNDHEIGHT+(PLAYER_HITBOX_RADIIUS/2);
+    public static final int POINTS_BEFORE_ORNAMENTS = 6;
+    public static final float ORNAMENT_SPAWNFREQ_FRAMES = (float) (1.7*PRESENT_SPAWNFREQ_FRAMES);
+    public static final float ADD_ORNAMENT_SPEED = 5;
+    public static final float ORNAMENT_REMOVE_PERCENTAGE = (float) 0.2;
+    public static final int HITS_TO_KILL = 3;
+    public static final int SHOOTSPEED = 5;
+    public static final int MAXSHOTS = 3;
+    public static final int PLAYER_MOVESPEED = 10;
+    public static final float KRAMPUS_YPOS = 10;
+    public static final int KRAMPUS_MINSPEED = 5;
+    public static final int KRAMPUS_MAXSPEED = 12;
+    public static final int KRAMPUS_CHANGE_FREQ = 2*FPS;
+    public static final int ATTACKSPEED = 7;
+    public static final int MAXATTACKS = 4;
+    public static final int ATTACK_FREQ = (int) (FPS*1.5);
+    public static final int TRIPLE_ATTACK_FREQ = FPS/5;
+    public static final int SCORE_SIZE = 50;
+    public static final int SCORE_XPOS = 15;
+    public static final int SCORE_YPOS = 300+(SCORE_SIZE/2);
+    public static final int SPARKLE_DURATION = FPS;
+}
