@@ -1,12 +1,7 @@
-# A Christmas Challenge (OOP 2019/20)
+# Rudolph v Krampus
 
-Bitte tragen Sie vor der Abgabe hier einige Informationen zu Ihrem Spiel ein:
+Developed by Jannik Wiese @ the media informatics department of the University of Regensburg.
 
-Ihr Name:	Jannik Wiese
-Ihre E-Mail-Adresse: Jannik.Wiese@stud.uni-regensburg.de
-Der Titel Ihres Spiels:	Rudolph vs Krampus
-Haben Sie urheberrechtlich geschützte Materialien verwendet:	nein
-Dürfen wir Ihr Spiel für Ihre KommilitonInnen bereitstellen:	ja
+To play you need to install the "Curlz MT" font.
 
-Wenn wir beim Ausführen oder Spielen etwas besonderes beachten müssen, teilen Sie uns das hier mit:
-Die Schriftart "Culrlz MT" sollte installiert sein.
+All used assets are free to use.
